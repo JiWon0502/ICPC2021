@@ -1,0 +1,18 @@
+#include<stdio.h>
+int arr[2][100000] = {0,};
+int closed_time(int strt){
+    int min = -1;
+    //input start time && return closed time
+    //if none can be started return -1;
+    for(int i = 0; i<N; i++){
+        if(arr[0][i] > strt && min < )
+    }
+}
+
+int main(){
+    int N;
+    scanf("%d", &N);
+    for(int i = 0; i<N; i++)
+        scanf("%d %d", &arr[0][i], &arr[1][i]);
+    
+}
