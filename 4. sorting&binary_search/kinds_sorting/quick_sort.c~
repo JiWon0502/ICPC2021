@@ -1,0 +1,27 @@
+#include <stdio.h>
+#define type_arr int
+
+void q_sort(type_arr* arr, int low, int high){
+    if(low >= high) return;
+    type_arr pivot = arr[low];
+    int left = low -1;
+    int right = high;
+    int temp;
+    while(left<=high){
+        if(arr[left]<= pivot){
+            left++;
+            continue;
+        }
+        if(arr[right]>= pivot){
+            right--;
+            continue;
+        }
+        temp = arr[left];
+        arr[left] = arr[right];
+        arr[right] = temp;
+    }
+    
+}
+int main(){
+    
+}
